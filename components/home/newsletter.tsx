@@ -1,12 +1,12 @@
 export default function Newsletter() {
   return (
     <div className="bg-white py-16 sm:py-24 lg:py-32">
-      <div className="mx-auto max-w-lg px-6 text-center lg:px-8">
+      <div className="mx-auto max-w-2xl px-2 text-center lg:px-2">
         <div className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          <h2 className="inline max-w-xl sm:block">Want product news and updates?</h2>{' '}
+          <h2 className="inline max-w-2xl sm:block">Want product news and updates?</h2>{' '}
           <p className="inline sm:block">Sign up for our newsletter.</p>
         </div>
-        <form className="mt-10 max-w-xl">
+        <form className="mt-10 max-w-2xl">
           <div className="flex gap-x-4">
             <label htmlFor="email-address" className="sr-only">
               Email address
