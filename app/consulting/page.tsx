@@ -1,46 +1,66 @@
-import { InboxIcon, TrashIcon, UsersIcon } from '@heroicons/react/24/outline'
-import Link from 'next/link'
+import { GlobeAsiaAustraliaIcon, ShieldCheckIcon, TruckIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 const features = [
   {
-    name: 'Project planning',
+    name: 'Replacing plastics',
     description:
-      'Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.',
+      'We can review your plastic consumption and suggest suitable alternatives in your packaging that are not only friendly to the environment but also economical in the long run',
     href: '#',
-    icon: InboxIcon,
+    icon: GlobeAsiaAustraliaIcon
   },
   {
-    name: 'Investment strategy',
+    name: 'Waste management',
     description:
-      'Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.',
+      ' We can convert your facility into a zero waste or carbon neutral endeavor with our waste management solutions. To us waste management is not about transporting waste to a faraway dump ground. It is much more than that. Waste is either recycled, upcycled or eliminated with minimal impact to the environment to the extent possible.',
     href: '#',
-    icon: UsersIcon,
+    icon: TruckIcon
   },
   {
-    name: 'Evangelism and marketing',
+    name: 'Low waste lifestyle',
     description:
-      'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
+      'Are you going to be new home owners or want to reduce your carbon footprint? Make us part of your home planning to include alternate energy sources, water preservation / harvesting and waste management in your wish list for your dream home.',
     href: '#',
-    icon: TrashIcon,
+    icon: TruckIcon
   },
-]
+  {
+    name: 'Zero waste events',
+    description:
+      ' Are you planning an event? Let us help it be a zero waste event so that you can enjoy your event without any guilt.',
+    href: '#',
+    icon: TruckIcon
+  },
+  {
+    name: 'Corporate social responsibility',
+    description:
+      'We can help identify projects that you can support as part of your CSR initiatives. Even if you are not ready to make the switch yet, you can still contribute to eco-friendly initiatives.',
+    href: '#',
+    icon: ShieldCheckIcon
+  }
+];
 
 export default function ConsultingLanding() {
   return (
-    <div className="bg-white py-8 sm:py-12">
+    <div className="py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Build a business for sustainability
+            For corporates
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We help you build a business that is sustainable and profitable. Our consulting services are designed to help 
-            you build a business that is profitable and sustainable. We provide you with the tools and resources you need
-            to succeed in today's competitive business environment.  
+            Build a business which adopts an earth-centric approach in all its products and
+            operations. Your corporate social responsibility is not something that happens in the
+            periphery but is reflected in every aspect of your business – from design, production,
+            distribution, consumption, and end-of-life disposal. Our consulting services are
+            designed to help you switch to sustainable materials or make conscious decisions in your
+            operations.
             <Link href="/consulting/contact">
               <span className="font-semibold text-gray-900">
-              Contact us <span aria-hidden="true">→</span>
-            </span></Link>.
+                {' '}
+                Contact us <span aria-hidden="true">→</span>
+              </span>
+            </Link>
+            .
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -55,11 +75,11 @@ export default function ConsultingLanding() {
                 </dt>
                 <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
                   <p className="flex-auto">{feature.description}</p>
-                  <p className="mt-6">
+                  {/* <p className="mt-6">
                     <a href={feature.href} className="text-sm font-semibold leading-6 text-0-fern_green-600">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
-                  </p>
+                  </p> */}
                 </dd>
               </div>
             ))}
@@ -67,5 +87,5 @@ export default function ConsultingLanding() {
         </div>
       </div>
     </div>
-  )
+  );
 }
