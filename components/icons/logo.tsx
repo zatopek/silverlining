@@ -7,7 +7,7 @@ export default function LogoIcon(props: React.ComponentProps<'svg'>) {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       aria-label={`${process.env.SITE_NAME} logo`}
       {...props}
-      className={clsx('h-4 w-4 fill-black dark:bg-neutral-50', props.className)}
+      className={clsx('h-4 w-4 fill-black dark:bg-neutral-900', props.className)}
       zoomAndPan="magnify"
       viewBox="0 0 375 374.999991"
       preserveAspectRatio="xMidYMid meet"

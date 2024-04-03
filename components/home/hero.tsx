@@ -27,11 +27,11 @@ export function Hero({
   return (
     <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
       <div className="relative w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
-        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl dark:text-0-uranian_blue-500">
           <p>{title}</p>
           <p>{description}</p>
         </h1>
-        <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
+        <p className="mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none dark:text-0-tea_rose_(red)-800">
           <p>{ctaText1}</p>
           <p>{ctaText2}</p>
           <br />
@@ -44,7 +44,7 @@ export function Hero({
             </span>
           </Link>
           <Link href="/consulting">
-            <span className="text-sm font-semibold leading-6 text-gray-900">
+            <span className="text-sm font-semibold leading-6 text-gray-900 dark:text-0-uranian_blue-500">
               Not sure? consult us <span aria-hidden="true">→</span>
             </span>
           </Link>
