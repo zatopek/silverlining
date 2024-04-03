@@ -44,10 +44,10 @@ export default function ConsultingLanding() {
     <div className="py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-0-uranian_blue-500">
             For corporates
           </h2>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-0-tea_rose_(red)-800">
             Build a business which adopts an earth-centric approach in all its products and
             operations. Your corporate social responsibility is not something that happens in the
             periphery but is reflected in every aspect of your business – from design, production,
@@ -55,7 +55,7 @@ export default function ConsultingLanding() {
             designed to help you switch to sustainable materials or make conscious decisions in your
             operations.
             <Link href="/consulting/contact">
-              <span className="font-semibold text-gray-900">
+              <span className="font-semibold text-gray-900 dark:text-0-uranian_blue-500">
                 {' '}
                 Contact us <span aria-hidden="true">→</span>
               </span>
@@ -67,13 +67,13 @@ export default function ConsultingLanding() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             {features.map((feature) => (
               <div key={feature.name} className="flex flex-col">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+                <dt className="text-base font-semibold leading-7 text-gray-900 dark:text-0-uranian_blue-500">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-0-fern_green-600">
                     <feature.icon className="h-6 w-6 text-white" aria-hidden="true" />
                   </div>
                   {feature.name}
                 </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600">
+                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 dark:text-0-tea_rose_(red)-800">
                   <p className="flex-auto">{feature.description}</p>
                   {/* <p className="mt-6">
                     <a href={feature.href} className="text-sm font-semibold leading-6 text-0-fern_green-600">

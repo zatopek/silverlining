@@ -1,8 +1,8 @@
 export default function Newsletter() {
   return (
-    <div className="bg-white py-16 sm:py-24 lg:py-32">
+    <div className="bg-white py-16 sm:py-24 lg:py-32 dark:bg-neutral-900">
       <div className="mx-auto max-w-2xl px-2 text-center lg:px-2">
-        <div className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <div className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl dark:text-0-uranian_blue-500">
           <h2 className="inline max-w-2xl sm:block">Want product news and updates?</h2>{' '}
           <p className="inline sm:block">Sign up for our newsletter.</p>
         </div>
@@ -27,7 +27,7 @@ export default function Newsletter() {
               Subscribe
             </button>
           </div>
-          <p className="mt-4 text-sm leading-6 text-gray-900">
+          <p className="mt-4 text-sm leading-6 text-gray-900 dark:text-0-tea_rose_(red)-800">
             We care about your data. Read our{' '}
             <a href="#" className="font-semibold text-0-fern_green-600 hover:text-0-fern_green-500">
               privacy&nbsp;policy
