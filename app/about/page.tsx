@@ -28,8 +28,8 @@ export default function About() {
           <p className="text-md leading-8 text-gray-600">
             Our aim is to:
             <ul className="list-decimal pl-10 ">
-              <li>Promote eco friendly products that:</li>
               <li>
+                Promote eco friendly products that:
                 <ul className="list-item pl-10 ">
                   <li>reduce plastic footprint and</li>
                   <li>harmful chemicals in the water supply</li>
