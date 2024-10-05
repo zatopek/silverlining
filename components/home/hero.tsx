@@ -38,11 +38,12 @@ export function Hero({
           <p>{ctaText3}</p>
         </p>
         <div className="mt-10 flex items-center gap-x-6">
+          {/*           
           <Link href="/search">
             <span className="rounded-md bg-0-fern_green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-0-fern_green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-0-fern_green-600">
               Make a Start (Shop)
             </span>
-          </Link>
+          </Link> */}
           <Link href="/consulting">
             <span className="text-sm font-semibold leading-6 text-gray-900 dark:text-0-uranian_blue-500">
               Not sure? consult us <span aria-hidden="true">→</span>
